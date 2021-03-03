@@ -304,6 +304,7 @@ MonoBehaviour:
   firePoint: {fileID: 6376438897821174914}
   bulletPrefab: {fileID: 2207012942871301447, guid: 44eb501908a7c614988670a294345622,
     type: 3}
+  cam: {fileID: 0}
 --- !u!1 &8103276451699421616
 GameObject:
   m_ObjectHideFlags: 0
@@ -557,17 +558,17 @@ PrefabInstance:
     - target: {fileID: 6436447032813155953, guid: d23856e43efb3ca43b8323a388eb2de5,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.397353
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6436447032813155953, guid: d23856e43efb3ca43b8323a388eb2de5,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.5320873
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6436447032813155953, guid: d23856e43efb3ca43b8323a388eb2de5,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -7.9926395
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6436447032813155953, guid: d23856e43efb3ca43b8323a388eb2de5,
         type: 3}

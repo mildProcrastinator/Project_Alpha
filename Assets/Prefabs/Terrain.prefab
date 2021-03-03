@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2242246902565396825}
   - component: {fileID: 2242246902565396826}
   - component: {fileID: 2242246902565396827}
+  - component: {fileID: 6305857300398860605}
   m_Layer: 0
   m_Name: Terrain
   m_TagString: Untagged
@@ -75,7 +76,7 @@ SpriteShapeRenderer:
   m_MaskInteraction: 0
   m_ShapeTexture: {fileID: 2800000, guid: e0eec4636eb8fd74ea760ceeb49a43e5, type: 3}
   m_Sprites:
-  - {fileID: 21300000, guid: 24a54d77d27580a4c8375c4c56ba27cc, type: 3}
+  - {fileID: 21300000, guid: 1d93ffed1ceb3214182a7ad8245d0c1b, type: 3}
   m_LocalAABB:
     m_Center: {x: 0.11030626, y: -0.5961876, z: 0}
     m_Extent: {x: 6.9888997, y: 3.121501, z: 0}
@@ -142,3 +143,21 @@ MonoBehaviour:
   m_UpdateCollider: 1
   m_OptimizeCollider: 1
   m_OptimizeGeometry: 1
+--- !u!68 &6305857300398860605
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2242246902565396772}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -6.8785934, y: -0.5961876}
+  - {x: 7.099206, y: -0.5961876}
