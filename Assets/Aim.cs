@@ -5,7 +5,10 @@ using UnityEngine;
 public class Aim : MonoBehaviour
 {
     float mouseX, mouseY;
+    public Camera cam;
+    Vector2 mousePosition;
     Transform Gun;
+    Vector2 bum;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,9 +18,12 @@ public class Aim : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        mouseX = Input.GetAxisRaw("Mouse X");
-        mouseY = Input.GetAxisRaw("Mouse Y");
-        Gun.rotation = Quaternion.Euler(mouseX, mouseY, 0);
+        mousePosition = cam.ScreenToWorldPoint(Input.mousePosition);
+        bum = new Vector2(Gun.position.x, Gun.position.y);
+        Vector2 aimDir = mousePosition - bum;
 
+        float angle = Mathf.Atan2(aimDir.y, aimDir.x) * Mathf.Rad2Deg;
+
+        Gun.rotation = Quaternion.Euler(0,0,angle);
     }
 }
