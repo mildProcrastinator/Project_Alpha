@@ -13,6 +13,10 @@ public class Bullet : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        if (collision.gameObject.tag.Equals("Crate"))
+        {
+            Destroy(collision.gameObject);
+        }
         Debug.Log(collision.name);
         Destroy(gameObject);
     }
