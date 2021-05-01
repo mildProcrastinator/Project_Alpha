@@ -9,6 +9,10 @@ public class Aim : MonoBehaviour
     Vector2 mousePosition;
     Transform Gun;
     Vector2 bum;
+
+    public float xRotation;
+    public float yRotation;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -25,5 +29,6 @@ public class Aim : MonoBehaviour
         float angle = Mathf.Atan2(aimDir.y, aimDir.x) * Mathf.Rad2Deg;
 
         Gun.rotation = Quaternion.Euler(0,0,angle);
+        Debug.Log(angle);
     }
 }
