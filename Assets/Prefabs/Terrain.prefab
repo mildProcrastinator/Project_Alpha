@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &2242246902565396772
+--- !u!1 &1036779747752418187
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,10 +8,10 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2242246902565396825}
-  - component: {fileID: 2242246902565396826}
-  - component: {fileID: 2242246902565396827}
-  - component: {fileID: 6305857300398860605}
+  - component: {fileID: 1036779747752418198}
+  - component: {fileID: 1036779747752418197}
+  - component: {fileID: 1036779747752418196}
+  - component: {fileID: 1036779747752418199}
   m_Layer: 0
   m_Name: Terrain
   m_TagString: Untagged
@@ -19,34 +19,36 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2242246902565396825
+--- !u!4 &1036779747752418198
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2242246902565396772}
+  m_GameObject: {fileID: 1036779747752418187}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -19.92, y: -0.24, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1971053207 &2242246902565396826
+--- !u!1971053207 &1036779747752418197
 SpriteShapeRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2242246902565396772}
+  m_GameObject: {fileID: 1036779747752418187}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
+  m_DynamicOccludee: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -78,15 +80,15 @@ SpriteShapeRenderer:
   m_Sprites:
   - {fileID: 21300000, guid: 1d93ffed1ceb3214182a7ad8245d0c1b, type: 3}
   m_LocalAABB:
-    m_Center: {x: 0.11030626, y: -0.5961876, z: 0}
-    m_Extent: {x: 6.9888997, y: 3.121501, z: 0}
---- !u!114 &2242246902565396827
+    m_Center: {x: 17.165989, y: -3.3532705, z: -0.0001}
+    m_Extent: {x: 27.764431, y: 6.434058, z: 0.0001}
+--- !u!114 &1036779747752418196
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2242246902565396772}
+  m_GameObject: {fileID: 1036779747752418187}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 90539df1cd5704abcb25fec9f3f5f84b, type: 3}
@@ -95,7 +97,7 @@ MonoBehaviour:
   m_Spline:
     m_IsOpenEnded: 0
     m_ControlPoints:
-    - position: {x: -6.6202736, y: -3.7176886, z: 0}
+    - position: {x: -10.586084, y: -9.787329, z: 0}
       leftTangent: {x: 0, y: 0, z: 0}
       rightTangent: {x: 0, y: 0, z: 0}
       mode: 0
@@ -104,16 +106,58 @@ MonoBehaviour:
       bevelSize: 0
       spriteIndex: 0
       corner: 1
-    - position: {x: -6.282203, y: 1.1270761, z: 0}
-      leftTangent: {x: -1.1050687, y: -1.1830022, z: -0}
-      rightTangent: {x: 2.8927488, y: 3.0967565, z: 0}
+      m_CornerMode: 1
+    - position: {x: -10.598064, y: 2.065105, z: 0}
+      leftTangent: {x: 0, y: 0, z: 0}
+      rightTangent: {x: 3.975605, y: 0.009378433, z: 0}
+      mode: 2
+      height: 1
+      bevelCutoff: 0
+      bevelSize: 0
+      spriteIndex: 0
+      corner: 1
+      m_CornerMode: 1
+    - position: {x: -4.367321, y: 1.7846471, z: 0}
+      leftTangent: {x: -0.42682457, y: -0.19115937, z: 0}
+      rightTangent: {x: 1.5267773, y: 0.68378794, z: 0}
       mode: 1
       height: 1
       bevelCutoff: 0
       bevelSize: 0
       spriteIndex: 0
+      corner: 0
+      m_CornerMode: 0
+    - position: {x: 0.90472984, y: 0.33806348, z: 0}
+      leftTangent: {x: -7.458082, y: -0.017593533, z: 0}
+      rightTangent: {x: 4.093748, y: 0.009657264, z: 0}
+      mode: 1
+      height: 1
+      bevelCutoff: 0
+      bevelSize: 0
+      spriteIndex: 0
+      corner: 0
+      m_CornerMode: 0
+    - position: {x: 28.001663, y: 1.9005961, z: 0}
+      leftTangent: {x: -9.894634, y: -3.7974498, z: 0}
+      rightTangent: {x: 5.5394554, y: 2.1259804, z: 0}
+      mode: 1
+      height: 1
+      bevelCutoff: 0
+      bevelSize: 0
+      spriteIndex: 0
+      corner: 0
+      m_CornerMode: 0
+    - position: {x: 44.599503, y: 2.1953158, z: 0}
+      leftTangent: {x: -2.8717575, y: -0.0067744255, z: 0}
+      rightTangent: {x: 0, y: 0, z: 0}
+      mode: 2
+      height: 1
+      bevelCutoff: 0
+      bevelSize: 0
+      spriteIndex: 0
       corner: 1
-    - position: {x: 6.676617, y: 1.211552, z: 0}
+      m_CornerMode: 1
+    - position: {x: 44.93042, y: -9.390017, z: 0}
       leftTangent: {x: 0, y: 0, z: 0}
       rightTangent: {x: 0, y: 0, z: 0}
       mode: 0
@@ -122,15 +166,7 @@ MonoBehaviour:
       bevelSize: 0
       spriteIndex: 0
       corner: 1
-    - position: {x: 7.099203, y: -2.563177, z: 0}
-      leftTangent: {x: 0, y: 0, z: 0}
-      rightTangent: {x: 0, y: 0, z: 0}
-      mode: 0
-      height: 1
-      bevelCutoff: 0
-      bevelSize: 0
-      spriteIndex: 0
-      corner: 1
+      m_CornerMode: 1
   m_SpriteShape: {fileID: 11400000, guid: a9939b22c3d92194a840450546e2b5b2, type: 2}
   m_FillPixelPerUnit: 100
   m_StretchTiling: 1
@@ -138,18 +174,22 @@ MonoBehaviour:
   m_AdaptiveUV: 1
   m_StretchUV: 0
   m_WorldSpaceUV: 0
+  m_CornerAngleThreshold: 30
   m_ColliderDetail: 16
   m_ColliderOffset: 0
   m_UpdateCollider: 1
   m_OptimizeCollider: 1
   m_OptimizeGeometry: 1
---- !u!68 &6305857300398860605
+  m_EnableTangents: 0
+  m_GeometryCached: 0
+  m_UTess2D: 0
+--- !u!68 &1036779747752418199
 EdgeCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2242246902565396772}
+  m_GameObject: {fileID: 1036779747752418187}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -159,5 +199,62 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: -6.8785934, y: -0.5961876}
-  - {x: 7.099206, y: -0.5961876}
+  - {x: -10.586084, y: -9.787329}
+  - {x: -10.598064, y: 2.064785}
+  - {x: -9.831354, y: 2.0604668}
+  - {x: -9.120585, y: 2.0451388}
+  - {x: -8.464425, y: 2.0208678}
+  - {x: -7.8615465, y: 1.9897202}
+  - {x: -6.810334, y: 1.9150625}
+  - {x: -5.2889585, y: 1.7741641}
+  - {x: -4.7975693, y: 1.7409899}
+  - {x: -4.4715343, y: 1.7547184}
+  - {x: -4.126862, y: 1.8848255}
+  - {x: -3.997188, y: 1.9186627}
+  - {x: -3.9528036, y: 1.8223795}
+  - {x: -4.000239, y: 1.5657878}
+  - {x: -3.9855473, y: 1.3996667}
+  - {x: -3.906327, y: 1.2202126}
+  - {x: -3.7334132, y: 1.0363427}
+  - {x: -3.4376566, y: 0.85694903}
+  - {x: -2.9898953, y: 0.690904}
+  - {x: -2.3609533, y: 0.54708093}
+  - {x: -1.521653, y: 0.4343586}
+  - {x: -0.4428172, y: 0.3616185}
+  - {x: 0.90472263, y: 0.33774355}
+  - {x: 1.8400395, y: 0.31207702}
+  - {x: 2.9940102, y: 0.24104667}
+  - {x: 5.8709702, y: 0.02188899}
+  - {x: 7.550476, y: -0.09674044}
+  - {x: 9.36168, y: -0.2017383}
+  - {x: 11.282838, y: -0.27835548}
+  - {x: 13.292217, y: -0.31184322}
+  - {x: 15.368071, y: -0.28745222}
+  - {x: 17.488663, y: -0.19043362}
+  - {x: 19.632248, y: -0.006038112}
+  - {x: 21.777094, y: 0.2804833}
+  - {x: 23.901459, y: 0.68388}
+  - {x: 25.983599, y: 1.2189015}
+  - {x: 28.001762, y: 1.9002924}
+  - {x: 29.14258, y: 2.2743516}
+  - {x: 30.339817, y: 2.553029}
+  - {x: 31.579342, y: 2.7466555}
+  - {x: 32.847, y: 2.8655572}
+  - {x: 34.12862, y: 2.9200592}
+  - {x: 35.410084, y: 2.9204905}
+  - {x: 36.67719, y: 2.8771744}
+  - {x: 37.915817, y: 2.8004396}
+  - {x: 39.111797, y: 2.7006116}
+  - {x: 40.250977, y: 2.588018}
+  - {x: 42.30233, y: 2.3658397}
+  - {x: 43.18618, y: 2.276908}
+  - {x: 43.956627, y: 2.216518}
+  - {x: 44.599503, y: 2.1953158}
+  - {x: 44.93042, y: -9.390017}
+  - {x: -7.8883934, y: -9.768023}
+  - {x: -9.878763, y: -9.782267}
+  - {x: -10.586084, y: -9.787329}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0

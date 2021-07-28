@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: af7181f404f1447c0a7a17b3070b952b, type: 3}
-  m_Name: New SpriteShapeProfile 1
+  m_Name: Ground_Shape_Profile
   m_EditorClassIdentifier: 
   m_Angles:
   - m_Start: -68
     m_End: 68
     m_Order: 1
     m_Sprites:
-    - {fileID: 21300000, guid: 1d93ffed1ceb3214182a7ad8245d0c1b, type: 3}
+    - {fileID: 21300000, guid: 24a54d77d27580a4c8375c4c56ba27cc, type: 3}
   - m_Start: 68
     m_End: 292
     m_Order: 2
