@@ -29,6 +29,5 @@ public class Aim : MonoBehaviour
         float angle = Mathf.Atan2(aimDir.y, aimDir.x) * Mathf.Rad2Deg;
 
         Gun.rotation = Quaternion.Euler(0,0,angle);
-        Debug.Log(angle);
     }
 }

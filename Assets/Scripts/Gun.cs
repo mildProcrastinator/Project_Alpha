@@ -8,6 +8,8 @@ public class Gun : MonoBehaviour
     public GameObject bulletPrefab;
     public Camera cam;
 
+    public int ammo = 1;
+
     Vector2 mousepos;
 
     void Update()
@@ -18,7 +20,11 @@ public class Gun : MonoBehaviour
 
         if (Input.GetButtonDown("Fire1"))
         {
-            Shoot(new Vector3(lookdir.x, lookdir.y, 0));
+            if (ammo >= 1)
+            {
+                Shoot(new Vector3(lookdir.x, lookdir.y, 0));
+                ammo -= 1;
+            }
         }
     }
 
