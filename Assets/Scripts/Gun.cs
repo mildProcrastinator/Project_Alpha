@@ -7,6 +7,7 @@ public class Gun : MonoBehaviour
     public Transform firePoint;
     public GameObject bulletPrefab;
     public Camera cam;
+    public Rigidbody2D rb;
 
     public int ammo = 1;
 
@@ -17,11 +18,17 @@ public class Gun : MonoBehaviour
         Vector2 firePointPosition = new Vector2(firePoint.position.x, firePoint.position.y);
         mousepos = cam.ScreenToWorldPoint(Input.mousePosition);
         Vector2 lookdir = mousepos - firePointPosition;
-
+        
+        //is player shooting?
         if (Input.GetButtonDown("Fire1"))
         {
+
             if (ammo >= 1)
             {
+                //recoil
+                rb.AddForce(new Vector2((float)(transform.position.x * 0.5), transform.position.y - 3), ForceMode2D.Impulse);
+
+                //call shoot method
                 Shoot(new Vector3(lookdir.x, lookdir.y, 0));
                 ammo -= 1;
             }

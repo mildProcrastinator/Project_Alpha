@@ -639,6 +639,12 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1627314564}
   m_PrefabAsset: {fileID: 0}
+--- !u!50 &1167207455 stripped
+Rigidbody2D:
+  m_CorrespondingSourceObject: {fileID: 8103276451633369525, guid: b5f9ab4bb34d1204cac01e4f56fe3a58,
+    type: 3}
+  m_PrefabInstance: {fileID: 1627314564}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1196193807
 GameObject:
   m_ObjectHideFlags: 3
@@ -856,6 +862,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 59118599872090479, guid: b5f9ab4bb34d1204cac01e4f56fe3a58,
+        type: 3}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1167207455}
     - target: {fileID: 59118599872090479, guid: b5f9ab4bb34d1204cac01e4f56fe3a58,
         type: 3}
       propertyPath: cam
