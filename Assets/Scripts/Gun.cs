@@ -35,6 +35,15 @@ public class Gun : MonoBehaviour
         }
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag.Equals("Pickup_Ammo"))
+        {
+            ammo++;
+            Destroy(collision.gameObject);
+        }
+        Destroy(gameObject);
+    }
 
     void Shoot (Vector2 aim)
     {
