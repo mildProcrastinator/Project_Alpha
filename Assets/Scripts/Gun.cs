@@ -26,7 +26,7 @@ public class Gun : MonoBehaviour
             if (ammo >= 1)
             {
                 //recoil
-                rb.AddForce(new Vector2((float)(transform.position.x * 0.5), transform.position.y - 3), ForceMode2D.Impulse);
+                rb.AddForce(new Vector2(lookdir.x * -6, lookdir.y * -19), ForceMode2D.Impulse);
 
                 //call shoot method
                 Shoot(new Vector3(lookdir.x, lookdir.y, 0));
