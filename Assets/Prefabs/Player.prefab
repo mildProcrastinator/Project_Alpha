@@ -114,10 +114,10 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.106191754, y: 0.3793041}
+  m_Offset: {x: 0.38567162, y: 1.2049323}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.41114178, y: 0.100272365}
     oldSize: {x: 7.44, y: 2.29}
     newSize: {x: 7.44, y: 2.29}
     adaptiveTilingThreshold: 0.5
@@ -125,7 +125,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 5.649852, y: 0.9849974}
+  m_Size: {x: 6.6335783, y: 1.3714607}
   m_EdgeRadius: 0
 --- !u!1 &4627277592837925747
 GameObject:
@@ -177,7 +177,7 @@ GameObject:
   - component: {fileID: 59118599872090479}
   m_Layer: 8
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -434,6 +434,8 @@ MonoBehaviour:
   bulletPrefab: {fileID: 2207012942871301447, guid: 44eb501908a7c614988670a294345622,
     type: 3}
   cam: {fileID: 0}
+  rb: {fileID: 0}
+  ammo: 1
 --- !u!1 &8103276451699421616
 GameObject:
   m_ObjectHideFlags: 0

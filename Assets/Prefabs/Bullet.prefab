@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4369594962368268147}
   - component: {fileID: 1806161643184915139}
   - component: {fileID: 232734435194524049}
-  - component: {fileID: 5950537774746355918}
+  - component: {fileID: 4306104760940697804}
   m_Layer: 7
   m_Name: Bullet
   m_TagString: Untagged
@@ -28,7 +28,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2207012942871301447}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.066227436, y: 0.119662166, z: -1.6166773}
+  m_LocalPosition: {x: 0.068, y: 0.122, z: -1.6166773}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_Children: []
   m_Father: {fileID: 0}
@@ -121,7 +121,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   rb: {fileID: 1806161643184915139}
---- !u!70 &5950537774746355918
+--- !u!70 &4306104760940697804
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -131,9 +131,9 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.01524315, y: 0.04303249}
-  m_Size: {x: 1.3082626, y: 0.4301448}
+  m_Offset: {x: -0.054472536, y: 0.06729027}
+  m_Size: {x: 1.075709, y: 0.37078544}
   m_Direction: 1
