@@ -9,6 +9,7 @@ public class CollisionDetection : MonoBehaviour
         Debug.Log(collision.gameObject.tag.ToString());
         if (collision.gameObject.tag.Equals("Player"))
         {
+            collision.gameObject.GetComponent<Gun>().ammo += 5;
             Destroy(gameObject);
         }
     }
