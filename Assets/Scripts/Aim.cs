@@ -30,4 +30,5 @@ public class Aim : MonoBehaviour
 
         Gun.rotation = Quaternion.Euler(0,0,angle);
     }
+
 }

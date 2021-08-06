@@ -8,10 +8,17 @@ public class Gun : MonoBehaviour
     public GameObject bulletPrefab;
     public Camera cam;
     public Rigidbody2D rb;
+    private AudioSource audioSource;
+    public AudioClip gunShot;
 
-    public int ammo = 1;
+    public int ammo;
 
     Vector2 mousepos;
+
+    void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
 
     void Update()
     {
@@ -31,6 +38,9 @@ public class Gun : MonoBehaviour
                 //call shoot method
                 Shoot(new Vector3(lookdir.x, lookdir.y, 0));
                 ammo -= 1;
+
+                //play shoot sound
+                audioSource.PlayOneShot(gunShot);
             }
         }
     }

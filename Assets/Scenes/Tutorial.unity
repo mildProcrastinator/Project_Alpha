@@ -475,7 +475,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 135995155}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 16.161373, y: -0.73, z: -10}
+  m_LocalPosition: {x: 16.16139, y: -0.73, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 924416128}
@@ -641,9 +641,9 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 37bd12e01fe812f4cbb007eed7af2356, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.71
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -1933,7 +1933,7 @@ PrefabInstance:
     - target: {fileID: 59118599872090479, guid: b5f9ab4bb34d1204cac01e4f56fe3a58,
         type: 3}
       propertyPath: ammo
-      value: 5
+      value: 999
       objectReference: {fileID: 0}
     - target: {fileID: 629534255377051794, guid: b5f9ab4bb34d1204cac01e4f56fe3a58,
         type: 3}
@@ -2166,7 +2166,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.6017157, y: 1}
+    m_SensorSize: {x: 1.6017368, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -2183,7 +2183,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1787236749}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 16.161373, y: -0.73, z: -10}
+  m_LocalPosition: {x: 16.16139, y: -0.73, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1196193808}
