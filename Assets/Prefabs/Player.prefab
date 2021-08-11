@@ -172,8 +172,6 @@ GameObject:
   - component: {fileID: 8103276451633369529}
   - component: {fileID: 8103276451633369534}
   - component: {fileID: 8103276451633369530}
-  - component: {fileID: 8103276451633369533}
-  - component: {fileID: 8103276451633369535}
   - component: {fileID: 59118599872090479}
   - component: {fileID: 3686481884568645073}
   m_Layer: 8
@@ -366,58 +364,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   serializedVersion: 2
   m_Size: {x: 1.3802125, y: 0.27901745}
-  m_EdgeRadius: 0
---- !u!61 &8103276451633369533
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8103276451633369526}
-  m_Enabled: 0
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.040023327, y: 0.42293262}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0.64, z: 0, w: 0.19333334}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.5733334, y: 1.44}
-    newSize: {x: 4.71, y: 2.59}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.07287121, y: 0.25807762}
-  m_EdgeRadius: 0
---- !u!61 &8103276451633369535
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8103276451633369526}
-  m_Enabled: 0
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.7633134, y: 0.40824938}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0.64, z: 0, w: 0.19333334}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.5733334, y: 1.44}
-    newSize: {x: 4.71, y: 2.59}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.046706438, y: 0.28254604}
   m_EdgeRadius: 0
 --- !u!114 &59118599872090479
 MonoBehaviour:
@@ -633,7 +579,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.1
+  m_Radius: 0.19618988
 --- !u!50 &8103276451699421620
 Rigidbody2D:
   serializedVersion: 4
@@ -752,9 +698,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.0039896965, y: 0}
   serializedVersion: 2
-  m_Radius: 0.1
+  m_Radius: 0.1961899
 --- !u!50 &8103276451723752925
 Rigidbody2D:
   serializedVersion: 4

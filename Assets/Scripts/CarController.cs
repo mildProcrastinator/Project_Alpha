@@ -32,16 +32,6 @@ public class CarController : MonoBehaviour
         movement = -Input.GetAxisRaw("Vertical") * speed;
         tilt = Input.GetAxisRaw("Horizontal");
 
-        //respawn - for playtesting only. 
-        if (Input.GetKey("r"))
-        {
-            JointMotor2D motor = new JointMotor2D { motorSpeed = 0, maxMotorTorque = 10000 };
-            transform.position = spawnPoint.transform.position;
-            transform.rotation = spawnPoint.transform.rotation;
-            rb.velocity = Vector3.zero;
-            frontWheel.motor = motor;
-            backWheel.motor = motor;
-        }
     }
 
     void FixedUpdate () 
@@ -53,7 +43,7 @@ public class CarController : MonoBehaviour
         }
         else
         {
-            JointMotor2D motor = new JointMotor2D { motorSpeed = movement, maxMotorTorque = 500};
+            JointMotor2D motor = new JointMotor2D { motorSpeed = movement, maxMotorTorque = 200};
             frontWheel.motor = motor;
             backWheel.motor = motor;
         }
