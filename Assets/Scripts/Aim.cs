@@ -25,6 +25,7 @@ public class Aim : MonoBehaviour
         mousePosition = cam.ScreenToWorldPoint(Input.mousePosition);
         bum = new Vector2(Gun.position.x, Gun.position.y);
         Vector2 aimDir = mousePosition - bum;
+        Debug.DrawLine(Gun.position, mousePosition, Color.black);
 
         float angle = Mathf.Atan2(aimDir.y, aimDir.x) * Mathf.Rad2Deg;
 
